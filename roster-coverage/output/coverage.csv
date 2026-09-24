@@ -1,0 +1,225 @@
+location,date,weekday,hour,headcount,below_min,staff
+Northside,2026-09-14,Mon,06:00,2,YES,Blake Duarte; Casey Schmidt
+Northside,2026-09-14,Mon,07:00,2,YES,Blake Duarte; Casey Schmidt
+Northside,2026-09-14,Mon,08:00,2,YES,Blake Duarte; Casey Schmidt
+Northside,2026-09-14,Mon,09:00,2,YES,Blake Duarte; Casey Schmidt
+Northside,2026-09-14,Mon,10:00,2,YES,Blake Duarte; Casey Schmidt
+Northside,2026-09-14,Mon,11:00,2,YES,Blake Duarte; Casey Schmidt
+Northside,2026-09-14,Mon,12:00,3,,Casey Schmidt; Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,13:00,3,,Casey Schmidt; Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,14:00,2,YES,Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,15:00,2,YES,Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,16:00,4,,Emerson Reyes; Jamie Larsen; Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,17:00,4,,Emerson Reyes; Jamie Larsen; Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,18:00,4,,Emerson Reyes; Jamie Larsen; Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,19:00,4,,Emerson Reyes; Jamie Larsen; Reese Moreau; Taylor Mendez
+Northside,2026-09-14,Mon,20:00,2,YES,Emerson Reyes; Jamie Larsen
+Northside,2026-09-14,Mon,21:00,2,YES,Emerson Reyes; Jamie Larsen
+Northside,2026-09-15,Tue,06:00,5,,Alex Okafor; Dakota Kim; Peyton Patel; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,07:00,5,,Alex Okafor; Dakota Kim; Peyton Patel; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,08:00,5,,Alex Okafor; Dakota Kim; Peyton Patel; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,09:00,5,,Alex Okafor; Dakota Kim; Peyton Patel; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,10:00,5,,Alex Okafor; Dakota Kim; Peyton Patel; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,11:00,5,,Alex Okafor; Dakota Kim; Peyton Patel; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,12:00,6,,Alex Okafor; Finley Novak; Peyton Patel; Quinn Costa; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,13:00,6,,Alex Okafor; Finley Novak; Peyton Patel; Quinn Costa; Reese Moreau; Taylor Mendez
+Northside,2026-09-15,Tue,14:00,2,YES,Finley Novak; Quinn Costa
+Northside,2026-09-15,Tue,15:00,2,YES,Finley Novak; Quinn Costa
+Northside,2026-09-15,Tue,16:00,5,,Blake Duarte; Casey Schmidt; Emerson Reyes; Finley Novak; Quinn Costa
+Northside,2026-09-15,Tue,17:00,5,,Blake Duarte; Casey Schmidt; Emerson Reyes; Finley Novak; Quinn Costa
+Northside,2026-09-15,Tue,18:00,5,,Blake Duarte; Casey Schmidt; Emerson Reyes; Finley Novak; Quinn Costa
+Northside,2026-09-15,Tue,19:00,5,,Blake Duarte; Casey Schmidt; Emerson Reyes; Finley Novak; Quinn Costa
+Northside,2026-09-15,Tue,20:00,3,,Blake Duarte; Casey Schmidt; Emerson Reyes
+Northside,2026-09-15,Tue,21:00,3,,Blake Duarte; Casey Schmidt; Emerson Reyes
+Northside,2026-09-16,Wed,06:00,2,YES,Alex Okafor; Emerson Reyes
+Northside,2026-09-16,Wed,07:00,2,YES,Alex Okafor; Emerson Reyes
+Northside,2026-09-16,Wed,08:00,2,YES,Alex Okafor; Emerson Reyes
+Northside,2026-09-16,Wed,09:00,2,YES,Alex Okafor; Emerson Reyes
+Northside,2026-09-16,Wed,10:00,2,YES,Alex Okafor; Emerson Reyes
+Northside,2026-09-16,Wed,11:00,2,YES,Alex Okafor; Emerson Reyes
+Northside,2026-09-16,Wed,12:00,7,,Alex Okafor; Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,13:00,7,,Alex Okafor; Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,14:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,15:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,16:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,17:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,18:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,19:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Kendall Chen; Peyton Patel; Taylor Mendez
+Northside,2026-09-16,Wed,20:00,0,YES,
+Northside,2026-09-16,Wed,21:00,0,YES,
+Northside,2026-09-17,Thu,06:00,5,,Alex Okafor; Blake Duarte; Finley Novak; Kendall Chen; Reese Moreau
+Northside,2026-09-17,Thu,07:00,5,,Alex Okafor; Blake Duarte; Finley Novak; Kendall Chen; Reese Moreau
+Northside,2026-09-17,Thu,08:00,5,,Alex Okafor; Blake Duarte; Finley Novak; Kendall Chen; Reese Moreau
+Northside,2026-09-17,Thu,09:00,5,,Alex Okafor; Blake Duarte; Finley Novak; Kendall Chen; Reese Moreau
+Northside,2026-09-17,Thu,10:00,5,,Alex Okafor; Blake Duarte; Finley Novak; Kendall Chen; Reese Moreau
+Northside,2026-09-17,Thu,11:00,5,,Alex Okafor; Blake Duarte; Finley Novak; Kendall Chen; Reese Moreau
+Northside,2026-09-17,Thu,12:00,4,,Alex Okafor; Finley Novak; Peyton Patel; Reese Moreau
+Northside,2026-09-17,Thu,13:00,4,,Alex Okafor; Finley Novak; Peyton Patel; Reese Moreau
+Northside,2026-09-17,Thu,14:00,3,,Emerson Reyes; Jamie Larsen; Peyton Patel
+Northside,2026-09-17,Thu,15:00,3,,Emerson Reyes; Jamie Larsen; Peyton Patel
+Northside,2026-09-17,Thu,16:00,3,,Emerson Reyes; Jamie Larsen; Peyton Patel
+Northside,2026-09-17,Thu,17:00,3,,Emerson Reyes; Jamie Larsen; Peyton Patel
+Northside,2026-09-17,Thu,18:00,3,,Emerson Reyes; Jamie Larsen; Peyton Patel
+Northside,2026-09-17,Thu,19:00,3,,Emerson Reyes; Jamie Larsen; Peyton Patel
+Northside,2026-09-17,Thu,20:00,2,YES,Emerson Reyes; Jamie Larsen
+Northside,2026-09-17,Thu,21:00,2,YES,Emerson Reyes; Jamie Larsen
+Northside,2026-09-18,Fri,06:00,2,YES,Alex Okafor; Blake Duarte
+Northside,2026-09-18,Fri,07:00,2,YES,Alex Okafor; Blake Duarte
+Northside,2026-09-18,Fri,08:00,2,YES,Alex Okafor; Blake Duarte
+Northside,2026-09-18,Fri,09:00,2,YES,Alex Okafor; Blake Duarte
+Northside,2026-09-18,Fri,10:00,4,,Alex Okafor; Blake Duarte; Dakota Kim; Jamie Larsen
+Northside,2026-09-18,Fri,11:00,4,,Alex Okafor; Blake Duarte; Dakota Kim; Jamie Larsen
+Northside,2026-09-18,Fri,12:00,4,,Alex Okafor; Blake Duarte; Dakota Kim; Jamie Larsen
+Northside,2026-09-18,Fri,13:00,4,,Alex Okafor; Blake Duarte; Dakota Kim; Jamie Larsen
+Northside,2026-09-18,Fri,14:00,6,,Casey Schmidt; Dakota Kim; Jamie Larsen; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,15:00,6,,Casey Schmidt; Dakota Kim; Jamie Larsen; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,16:00,6,,Casey Schmidt; Dakota Kim; Jamie Larsen; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,17:00,6,,Casey Schmidt; Dakota Kim; Jamie Larsen; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,18:00,4,,Casey Schmidt; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,19:00,4,,Casey Schmidt; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,20:00,4,,Casey Schmidt; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-18,Fri,21:00,4,,Casey Schmidt; Kendall Chen; Quinn Costa; Taylor Mendez
+Northside,2026-09-19,Sat,06:00,3,,Alex Okafor; Drew Fischer; Reese Moreau
+Northside,2026-09-19,Sat,07:00,3,,Alex Okafor; Drew Fischer; Reese Moreau
+Northside,2026-09-19,Sat,08:00,3,,Alex Okafor; Drew Fischer; Reese Moreau
+Northside,2026-09-19,Sat,09:00,3,,Alex Okafor; Drew Fischer; Reese Moreau
+Northside,2026-09-19,Sat,10:00,3,,Alex Okafor; Drew Fischer; Reese Moreau
+Northside,2026-09-19,Sat,11:00,3,,Alex Okafor; Drew Fischer; Reese Moreau
+Northside,2026-09-19,Sat,12:00,5,,Alex Okafor; Dakota Kim; Drew Fischer; Quinn Costa; Reese Moreau
+Northside,2026-09-19,Sat,13:00,5,,Alex Okafor; Dakota Kim; Drew Fischer; Quinn Costa; Reese Moreau
+Northside,2026-09-19,Sat,14:00,4,,Dakota Kim; Finley Novak; Peyton Patel; Quinn Costa
+Northside,2026-09-19,Sat,15:00,4,,Dakota Kim; Finley Novak; Peyton Patel; Quinn Costa
+Northside,2026-09-19,Sat,16:00,6,,Blake Duarte; Casey Schmidt; Dakota Kim; Finley Novak; Peyton Patel; Quinn Costa
+Northside,2026-09-19,Sat,17:00,6,,Blake Duarte; Casey Schmidt; Dakota Kim; Finley Novak; Peyton Patel; Quinn Costa
+Northside,2026-09-19,Sat,18:00,6,,Blake Duarte; Casey Schmidt; Dakota Kim; Finley Novak; Peyton Patel; Quinn Costa
+Northside,2026-09-19,Sat,19:00,6,,Blake Duarte; Casey Schmidt; Dakota Kim; Finley Novak; Peyton Patel; Quinn Costa
+Northside,2026-09-19,Sat,20:00,4,,Blake Duarte; Casey Schmidt; Finley Novak; Peyton Patel
+Northside,2026-09-19,Sat,21:00,4,,Blake Duarte; Casey Schmidt; Finley Novak; Peyton Patel
+Northside,2026-09-20,Sun,06:00,3,,Alex Okafor; Casey Schmidt; Kendall Chen
+Northside,2026-09-20,Sun,07:00,3,,Alex Okafor; Casey Schmidt; Kendall Chen
+Northside,2026-09-20,Sun,08:00,3,,Alex Okafor; Casey Schmidt; Kendall Chen
+Northside,2026-09-20,Sun,09:00,3,,Alex Okafor; Casey Schmidt; Kendall Chen
+Northside,2026-09-20,Sun,10:00,3,,Alex Okafor; Casey Schmidt; Kendall Chen
+Northside,2026-09-20,Sun,11:00,3,,Alex Okafor; Casey Schmidt; Kendall Chen
+Northside,2026-09-20,Sun,12:00,3,,Alex Okafor; Casey Schmidt; Drew Fischer
+Northside,2026-09-20,Sun,13:00,3,,Alex Okafor; Casey Schmidt; Drew Fischer
+Northside,2026-09-20,Sun,14:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,15:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,16:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,17:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,18:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,19:00,6,,Dakota Kim; Drew Fischer; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,20:00,5,,Dakota Kim; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Northside,2026-09-20,Sun,21:00,5,,Dakota Kim; Finley Novak; Jamie Larsen; Peyton Patel; Taylor Mendez
+Riverside,2026-09-14,Mon,06:00,2,YES,Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,07:00,2,YES,Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,08:00,2,YES,Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,09:00,2,YES,Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,10:00,4,,Elliot Walsh; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,11:00,4,,Elliot Walsh; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,12:00,4,,Elliot Walsh; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,13:00,4,,Elliot Walsh; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-14,Mon,14:00,4,,Elliot Walsh; Jordan Tanaka; Logan Haddad; Morgan Lindqvist
+Riverside,2026-09-14,Mon,15:00,4,,Elliot Walsh; Jordan Tanaka; Logan Haddad; Morgan Lindqvist
+Riverside,2026-09-14,Mon,16:00,5,,Cameron Silva; Elliot Walsh; Jordan Tanaka; Logan Haddad; Morgan Lindqvist
+Riverside,2026-09-14,Mon,17:00,5,,Cameron Silva; Elliot Walsh; Jordan Tanaka; Logan Haddad; Morgan Lindqvist
+Riverside,2026-09-14,Mon,18:00,3,,Cameron Silva; Jordan Tanaka; Morgan Lindqvist
+Riverside,2026-09-14,Mon,19:00,3,,Cameron Silva; Jordan Tanaka; Morgan Lindqvist
+Riverside,2026-09-14,Mon,20:00,3,,Cameron Silva; Jordan Tanaka; Morgan Lindqvist
+Riverside,2026-09-14,Mon,21:00,3,,Cameron Silva; Jordan Tanaka; Morgan Lindqvist
+Riverside,2026-09-15,Tue,06:00,2,YES,Hayden Rivera; Riley Nakamura
+Riverside,2026-09-15,Tue,07:00,2,YES,Hayden Rivera; Riley Nakamura
+Riverside,2026-09-15,Tue,08:00,2,YES,Hayden Rivera; Riley Nakamura
+Riverside,2026-09-15,Tue,09:00,2,YES,Hayden Rivera; Riley Nakamura
+Riverside,2026-09-15,Tue,10:00,3,,Hayden Rivera; Morgan Lindqvist; Riley Nakamura
+Riverside,2026-09-15,Tue,11:00,3,,Hayden Rivera; Morgan Lindqvist; Riley Nakamura
+Riverside,2026-09-15,Tue,12:00,6,,Avery Olsen; Hayden Rivera; Morgan Lindqvist; Riley Nakamura; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,13:00,6,,Avery Olsen; Hayden Rivera; Morgan Lindqvist; Riley Nakamura; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,14:00,6,,Avery Olsen; Morgan Lindqvist; Parker Ivanova; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,15:00,6,,Avery Olsen; Morgan Lindqvist; Parker Ivanova; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,16:00,7,,Avery Olsen; Cameron Silva; Morgan Lindqvist; Parker Ivanova; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,17:00,7,,Avery Olsen; Cameron Silva; Morgan Lindqvist; Parker Ivanova; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,18:00,6,,Avery Olsen; Cameron Silva; Parker Ivanova; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,19:00,6,,Avery Olsen; Cameron Silva; Parker Ivanova; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-15,Tue,20:00,3,,Cameron Silva; Parker Ivanova; Rowan Park
+Riverside,2026-09-15,Tue,21:00,3,,Cameron Silva; Parker Ivanova; Rowan Park
+Riverside,2026-09-16,Wed,06:00,3,,Avery Olsen; Elliot Walsh; Skyler Byrne
+Riverside,2026-09-16,Wed,07:00,3,,Avery Olsen; Elliot Walsh; Skyler Byrne
+Riverside,2026-09-16,Wed,08:00,3,,Avery Olsen; Elliot Walsh; Skyler Byrne
+Riverside,2026-09-16,Wed,09:00,3,,Avery Olsen; Elliot Walsh; Skyler Byrne
+Riverside,2026-09-16,Wed,10:00,4,,Avery Olsen; Elliot Walsh; Jordan Tanaka; Skyler Byrne
+Riverside,2026-09-16,Wed,11:00,4,,Avery Olsen; Elliot Walsh; Jordan Tanaka; Skyler Byrne
+Riverside,2026-09-16,Wed,12:00,4,,Hayden Rivera; Jordan Tanaka; Parker Ivanova; Skyler Byrne
+Riverside,2026-09-16,Wed,13:00,4,,Hayden Rivera; Jordan Tanaka; Parker Ivanova; Skyler Byrne
+Riverside,2026-09-16,Wed,14:00,3,,Hayden Rivera; Jordan Tanaka; Parker Ivanova
+Riverside,2026-09-16,Wed,15:00,3,,Hayden Rivera; Jordan Tanaka; Parker Ivanova
+Riverside,2026-09-16,Wed,16:00,3,,Hayden Rivera; Jordan Tanaka; Parker Ivanova
+Riverside,2026-09-16,Wed,17:00,3,,Hayden Rivera; Jordan Tanaka; Parker Ivanova
+Riverside,2026-09-16,Wed,18:00,2,YES,Hayden Rivera; Parker Ivanova
+Riverside,2026-09-16,Wed,19:00,2,YES,Hayden Rivera; Parker Ivanova
+Riverside,2026-09-16,Wed,20:00,0,YES,
+Riverside,2026-09-16,Wed,21:00,0,YES,
+Riverside,2026-09-17,Thu,06:00,2,YES,Cameron Silva; Riley Nakamura
+Riverside,2026-09-17,Thu,07:00,2,YES,Cameron Silva; Riley Nakamura
+Riverside,2026-09-17,Thu,08:00,2,YES,Cameron Silva; Riley Nakamura
+Riverside,2026-09-17,Thu,09:00,2,YES,Cameron Silva; Riley Nakamura
+Riverside,2026-09-17,Thu,10:00,4,,Avery Olsen; Cameron Silva; Elliot Walsh; Riley Nakamura
+Riverside,2026-09-17,Thu,11:00,4,,Avery Olsen; Cameron Silva; Elliot Walsh; Riley Nakamura
+Riverside,2026-09-17,Thu,12:00,6,,Avery Olsen; Cameron Silva; Elliot Walsh; Morgan Lindqvist; Parker Ivanova; Riley Nakamura
+Riverside,2026-09-17,Thu,13:00,6,,Avery Olsen; Cameron Silva; Elliot Walsh; Morgan Lindqvist; Parker Ivanova; Riley Nakamura
+Riverside,2026-09-17,Thu,14:00,4,,Avery Olsen; Elliot Walsh; Morgan Lindqvist; Parker Ivanova
+Riverside,2026-09-17,Thu,15:00,4,,Avery Olsen; Elliot Walsh; Morgan Lindqvist; Parker Ivanova
+Riverside,2026-09-17,Thu,16:00,7,,Avery Olsen; Elliot Walsh; Hayden Rivera; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Skyler Byrne
+Riverside,2026-09-17,Thu,17:00,7,,Avery Olsen; Elliot Walsh; Hayden Rivera; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Skyler Byrne
+Riverside,2026-09-17,Thu,18:00,5,,Hayden Rivera; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Skyler Byrne
+Riverside,2026-09-17,Thu,19:00,5,,Hayden Rivera; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Skyler Byrne
+Riverside,2026-09-17,Thu,20:00,3,,Hayden Rivera; Logan Haddad; Skyler Byrne
+Riverside,2026-09-17,Thu,21:00,3,,Hayden Rivera; Logan Haddad; Skyler Byrne
+Riverside,2026-09-18,Fri,06:00,4,,Cameron Silva; Hayden Rivera; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,07:00,4,,Cameron Silva; Hayden Rivera; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,08:00,4,,Cameron Silva; Hayden Rivera; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,09:00,4,,Cameron Silva; Hayden Rivera; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,10:00,7,,Avery Olsen; Cameron Silva; Hayden Rivera; Jordan Tanaka; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,11:00,7,,Avery Olsen; Cameron Silva; Hayden Rivera; Jordan Tanaka; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,12:00,5,,Avery Olsen; Jordan Tanaka; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,13:00,5,,Avery Olsen; Jordan Tanaka; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-18,Fri,14:00,6,,Avery Olsen; Jordan Tanaka; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,15:00,6,,Avery Olsen; Jordan Tanaka; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,16:00,6,,Avery Olsen; Jordan Tanaka; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,17:00,6,,Avery Olsen; Jordan Tanaka; Logan Haddad; Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,18:00,3,,Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,19:00,3,,Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,20:00,3,,Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-18,Fri,21:00,3,,Morgan Lindqvist; Parker Ivanova; Sawyer Adeyemi
+Riverside,2026-09-19,Sat,06:00,3,,Avery Olsen; Logan Haddad; Riley Nakamura
+Riverside,2026-09-19,Sat,07:00,3,,Avery Olsen; Logan Haddad; Riley Nakamura
+Riverside,2026-09-19,Sat,08:00,3,,Avery Olsen; Logan Haddad; Riley Nakamura
+Riverside,2026-09-19,Sat,09:00,3,,Avery Olsen; Logan Haddad; Riley Nakamura
+Riverside,2026-09-19,Sat,10:00,5,,Avery Olsen; Logan Haddad; Riley Nakamura; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,11:00,5,,Avery Olsen; Logan Haddad; Riley Nakamura; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,12:00,7,,Avery Olsen; Elliot Walsh; Jordan Tanaka; Logan Haddad; Riley Nakamura; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,13:00,7,,Avery Olsen; Elliot Walsh; Jordan Tanaka; Logan Haddad; Riley Nakamura; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,14:00,5,,Elliot Walsh; Jordan Tanaka; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,15:00,5,,Elliot Walsh; Jordan Tanaka; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,16:00,5,,Elliot Walsh; Jordan Tanaka; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,17:00,5,,Elliot Walsh; Jordan Tanaka; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-19,Sat,18:00,3,,Elliot Walsh; Jordan Tanaka; Rowan Park
+Riverside,2026-09-19,Sat,19:00,3,,Elliot Walsh; Jordan Tanaka; Rowan Park
+Riverside,2026-09-19,Sat,20:00,1,YES,Rowan Park
+Riverside,2026-09-19,Sat,21:00,1,YES,Rowan Park
+Riverside,2026-09-20,Sun,06:00,3,,Jordan Tanaka; Logan Haddad; Riley Nakamura
+Riverside,2026-09-20,Sun,07:00,3,,Jordan Tanaka; Logan Haddad; Riley Nakamura
+Riverside,2026-09-20,Sun,08:00,3,,Jordan Tanaka; Logan Haddad; Riley Nakamura
+Riverside,2026-09-20,Sun,09:00,3,,Jordan Tanaka; Logan Haddad; Riley Nakamura
+Riverside,2026-09-20,Sun,10:00,4,,Jordan Tanaka; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-20,Sun,11:00,4,,Jordan Tanaka; Logan Haddad; Riley Nakamura; Rowan Park
+Riverside,2026-09-20,Sun,12:00,7,,Elliot Walsh; Logan Haddad; Morgan Lindqvist; Riley Nakamura; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,13:00,7,,Elliot Walsh; Logan Haddad; Morgan Lindqvist; Riley Nakamura; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,14:00,5,,Elliot Walsh; Morgan Lindqvist; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,15:00,5,,Elliot Walsh; Morgan Lindqvist; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,16:00,6,,Cameron Silva; Elliot Walsh; Morgan Lindqvist; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,17:00,6,,Cameron Silva; Elliot Walsh; Morgan Lindqvist; Rowan Park; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,18:00,5,,Cameron Silva; Elliot Walsh; Morgan Lindqvist; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,19:00,5,,Cameron Silva; Elliot Walsh; Morgan Lindqvist; Sawyer Adeyemi; Skyler Byrne
+Riverside,2026-09-20,Sun,20:00,1,YES,Cameron Silva
+Riverside,2026-09-20,Sun,21:00,1,YES,Cameron Silva

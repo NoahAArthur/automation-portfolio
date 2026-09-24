@@ -1,0 +1,14 @@
+first_name,last_name,email,phone,company,city,sources,issues
+Helen,Achterberg,helen.a@example.com,12345,Tulip Row,Hillsboro,event_signups.csv:8,invalid phone '12345'
+Owen,Brandt,owen.brandt@example.com,(555) 010-1006,Cascade Freight,Bend,crm_export.csv:7; newsletter_list.csv:3,
+Ines,Carvalho,ines.carvalho@example.com,(555) 010-1013,Carvalho Bakery,Portland,newsletter_list.csv:4,
+Yusuf,Demir,yusuf.demir@example.com,(555) 010-1014,Demir Auto,Gresham,newsletter_list.csv:6,
+Samir,Haddad,samir.haddad@example.org,(555) 010-1008,Olive Branch Cafe,Salem,crm_export.csv:9; newsletter_list.csv:5,
+Tomas,Keller,tkeller@example.net,(555) 010-1004,Keller & Sons,Eugene,crm_export.csv:5; newsletter_list.csv:2,
+Grace,Liu,grace.liu@example.com,(555) 010-1005,Northwind Studio,Portland,crm_export.csv:6; event_signups.csv:4,
+Kofi,Mensah,kofi.mensah@example,(555) 010-1012,Mensah Logistics,Olympia,event_signups.csv:6,invalid email 'kofi.mensah@example'
+Beatriz,Moreno,beatriz.moreno@example.com,(555) 010-1011,Moreno Consulting,Vancouver,event_signups.csv:5,
+Marcus,Oyelaran,marcus.oyelaran@example.com,(555) 010-1002,Brightline Supply,Tacoma,crm_export.csv:3; event_signups.csv:3,
+Priya,Raman,priya.raman@example.org,(555) 010-1003,Raman Analytics,Salem,crm_export.csv:4; event_signups.csv:7,
+Lena,Sorensen,lena.sorensen@example.com,(555) 010-1007,Fjord Design,Portland,crm_export.csv:8; newsletter_list.csv:8,
+Dana,Whitfield,dana.whitfield@example.com,(555) 010-1001,Harbor Tools,Portland,crm_export.csv:2; event_signups.csv:2,

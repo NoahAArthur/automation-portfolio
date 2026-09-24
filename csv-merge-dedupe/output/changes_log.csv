@@ -1,0 +1,67 @@
+source,row,field,before,after,action
+crm_export.csv,1,First Name,First Name,first_name,header_exact
+crm_export.csv,1,Last Name,Last Name,last_name,header_exact
+crm_export.csv,1,Email Address,Email Address,email,header_exact
+crm_export.csv,1,Phone Number,Phone Number,phone,header_exact
+crm_export.csv,1,Company,Company,company,header_exact
+crm_export.csv,1,City,City,city,header_exact
+crm_export.csv,3,first_name, marcus ,Marcus,normalised
+crm_export.csv,3,last_name,OYELARAN,Oyelaran,normalised
+crm_export.csv,3,email,Marcus.Oyelaran@Example.com,marcus.oyelaran@example.com,normalised
+crm_export.csv,3,phone,555.010.1002,(555) 010-1002,normalised
+crm_export.csv,4,phone,5550101003,(555) 010-1003,normalised
+crm_export.csv,5,phone,+1 555 010 1004,(555) 010-1004,normalised
+crm_export.csv,6,phone,555-010-1005,(555) 010-1005,normalised
+crm_export.csv,8,email,LENA.SORENSEN@EXAMPLE.COM,lena.sorensen@example.com,normalised
+crm_export.csv,8,phone,(555)010-1007,(555) 010-1007,normalised
+crm_export.csv,9,phone,555 010 1008,(555) 010-1008,normalised
+event_signups.csv,1, Full Name , Full Name ,full_name,header_exact
+event_signups.csv,1,E-mail,E-mail,email,header_exact
+event_signups.csv,1,phone #,phone #,phone,header_exact
+event_signups.csv,1,Organisation,Organisation,company,header_exact
+event_signups.csv,1,town,town,city,header_exact
+event_signups.csv,2,full_name,Dana Whitfield,Dana | Whitfield,name_split
+event_signups.csv,2,email,DANA.WHITFIELD@example.com ,dana.whitfield@example.com,normalised
+event_signups.csv,2,phone,555-010-1001,(555) 010-1001,normalised
+event_signups.csv,3,full_name,Marcus Oyelaran,Marcus | Oyelaran,name_split
+event_signups.csv,4,full_name,"Liu, Grace",Grace | Liu,name_split
+event_signups.csv,4,phone,1-555-010-1005,(555) 010-1005,normalised
+event_signups.csv,5,full_name,Beatriz  Moreno,Beatriz | Moreno,name_split
+event_signups.csv,5,phone,555/010/1011,(555) 010-1011,normalised
+event_signups.csv,6,full_name,Kofi Mensah,Kofi | Mensah,name_split
+event_signups.csv,6,email,kofi.mensah@example,kofi.mensah@example,flagged_invalid
+event_signups.csv,6,phone,555-010-1012,(555) 010-1012,normalised
+event_signups.csv,7,full_name,Priya Raman,Priya | Raman,name_split
+event_signups.csv,8,full_name,Helen Achterberg,Helen | Achterberg,name_split
+event_signups.csv,8,phone,12345,12345,flagged_invalid
+newsletter_list.csv,1,fname,fname,first_name,header_exact
+newsletter_list.csv,1,LName,LName,last_name,header_exact
+newsletter_list.csv,1,emial,emial,email,header_fuzzy:email
+newsletter_list.csv,1,Mobile,Mobile,phone,header_exact
+newsletter_list.csv,1,Employer,Employer,company,header_exact
+newsletter_list.csv,1,City ,City ,city,header_exact
+newsletter_list.csv,1,Signup Source,Signup Source,,column_ignored
+newsletter_list.csv,2,first_name,tomas,Tomas,normalised
+newsletter_list.csv,2,last_name,keller,Keller,normalised
+newsletter_list.csv,2,email,TKeller@Example.net,tkeller@example.net,normalised
+newsletter_list.csv,2,phone,5550101004,(555) 010-1004,normalised
+newsletter_list.csv,2,city,eugene,Eugene,normalised
+newsletter_list.csv,3,phone,555.010.1006,(555) 010-1006,normalised
+newsletter_list.csv,4,phone,555 010 1013,(555) 010-1013,normalised
+newsletter_list.csv,5,email, samir.haddad@example.org ,samir.haddad@example.org,normalised
+newsletter_list.csv,5,city,salem,Salem,normalised
+newsletter_list.csv,6,phone,555-010-1014,(555) 010-1014,normalised
+newsletter_list.csv,7,*,,,blank_row_dropped
+newsletter_list.csv,8,phone,555-010-1007,(555) 010-1007,normalised
+event_signups.csv,2,*,,merged into crm_export.csv:2,merged_duplicate
+event_signups.csv,2,company,Harbor Tools Inc,Harbor Tools,conflict_kept_first
+event_signups.csv,3,*,,merged into crm_export.csv:3,merged_duplicate
+event_signups.csv,7,*,,merged into crm_export.csv:4,merged_duplicate
+event_signups.csv,7,company,,Raman Analytics,filled_blank
+newsletter_list.csv,2,*,,merged into crm_export.csv:5,merged_duplicate
+event_signups.csv,4,*,,merged into crm_export.csv:6,merged_duplicate
+newsletter_list.csv,3,*,,merged into crm_export.csv:7,merged_duplicate
+newsletter_list.csv,3,phone,,(555) 010-1006,filled_blank
+newsletter_list.csv,8,*,,merged into crm_export.csv:8,merged_duplicate
+newsletter_list.csv,8,company,Fjord Design Co,Fjord Design,conflict_kept_first
+newsletter_list.csv,5,*,,merged into crm_export.csv:9,merged_duplicate
