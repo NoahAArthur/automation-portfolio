@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sales dashboard</title><style>
+:root{color-scheme:light;--page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#6f6d68;
+--grid:#e1e0d9;--axis:#c3c2b7;--border:rgba(11,11,11,.10);--s1:#2a78d6;--s2:#eb6834}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--page:#0d0d0d;--surface:#1a1a19;
+--ink:#fff;--ink2:#c3c2b7;--muted:#a3a198;--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);--s1:#3987e5;--s2:#d95926}}
+:root[data-theme="dark"]{color-scheme:dark;--page:#0d0d0d;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#a3a198;
+--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);--s1:#3987e5;--s2:#d95926}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 16px 40px}
+header h1{font-size:26px;margin:0 0 4px}
+header p{margin:0;color:var(--ink2)}
+.kpis{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:14px;margin:22px 0}
+.tile,.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.tile .k{color:var(--ink2);font-size:14px}
+.tile .v{font-size:30px;font-weight:600;margin-top:4px}
+.tile.hero .v{font-size:48px;line-height:1.1}
+.tile .d{color:var(--muted);font-size:13px;margin-top:2px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card h2{font-size:16px;margin:0 0 2px}
+.card .sub{color:var(--ink2);font-size:13px;margin:0 0 8px}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--ink2);margin:0 0 4px}
+.legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+svg{width:100%;height:auto;display:block;font-family:inherit}
+.grid{stroke:var(--grid);stroke-width:1}.axis{stroke:var(--axis);stroke-width:1}
+.tick{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.cat{fill:var(--ink2);font-size:13px}.label{fill:var(--ink);font-size:13px;font-weight:600}
+.line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.line.s1{stroke:var(--s1)}.line.s2{stroke:var(--s2)}
+.wash.s1{fill:var(--s1);opacity:.10}
+.dot{stroke:var(--surface);stroke-width:2}.dot.s1,.bar.s1,.swatch1{fill:var(--s1);background:var(--s1)}
+.dot.s2,.swatch2{fill:var(--s2);background:var(--s2)}
+.hit{fill:transparent}.hit:focus,g:focus{outline:2px solid var(--s1)}
+g:hover .bar{opacity:.85}
+details{margin-top:8px;font-size:13px;color:var(--ink2)}
+summary{cursor:pointer}
+table{border-collapse:collapse;margin-top:6px;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:3px 8px;border-bottom:1px solid var(--grid)}
+td+td,th+th{text-align:right}
+footer{color:var(--muted);font-size:13px;margin-top:22px}
+html,body{overflow-x:hidden}.kpis>*,.grid2>*{min-width:0}
+@media (max-width:760px){.kpis{grid-template-columns:1fr 1fr}.tile.hero,.tile:last-child{grid-column:1/-1}.grid2{grid-template-columns:1fr}.tile .v{font-size:24px}.tile.hero .v{font-size:40px}}
+</style></head>
+<body><main>
+<header><h1>Sales dashboard</h1><p>Jan 2025 to Dec 2025 · synthetic sample data</p></header>
+<div class="kpis"><div class="tile hero"><div class="k">Total revenue</div><div class="v">$83,778.50</div><div class="d">Jan 2025 to Dec 2025</div></div><div class="tile "><div class="k">Orders</div><div class="v">1,656</div><div class="d">3,271 units</div></div><div class="tile "><div class="k">Average order value</div><div class="v">$50.59</div><div class="d">revenue ÷ orders</div></div><div class="tile "><div class="k">Best month</div><div class="v">Dec</div><div class="d">$9,409.50</div></div></div>
+<div class="grid2"><section class="card"><h2>Monthly revenue</h2><p class="sub">All channels and regions</p><svg id="chart-monthly" viewBox="0 0 560 260" role="img" aria-label="Monthly revenue line chart" xmlns="http://www.w3.org/2000/svg">
+<line class="grid" x1="64" x2="501" y1="224.0" y2="224.0"/>
+<text class="tick" x="56" y="228.0" text-anchor="end">$0</text>
+<line class="grid" x1="64" x2="501" y1="172.0" y2="172.0"/>
+<text class="tick" x="56" y="176.0" text-anchor="end">$2.5K</text>
+<line class="grid" x1="64" x2="501" y1="120.0" y2="120.0"/>
+<text class="tick" x="56" y="124.0" text-anchor="end">$5K</text>
+<line class="grid" x1="64" x2="501" y1="68.0" y2="68.0"/>
+<text class="tick" x="56" y="72.0" text-anchor="end">$7.5K</text>
+<line class="grid" x1="64" x2="501" y1="16.0" y2="16.0"/>
+<text class="tick" x="56" y="20.0" text-anchor="end">$10K</text>
+<line class="axis" x1="64" x2="501" y1="224" y2="224"/>
+<text class="tick" x="64.0" y="246" text-anchor="middle">Jan</text>
+<text class="tick" x="103.7" y="246" text-anchor="middle">Feb</text>
+<text class="tick" x="143.5" y="246" text-anchor="middle">Mar</text>
+<text class="tick" x="183.2" y="246" text-anchor="middle">Apr</text>
+<text class="tick" x="222.9" y="246" text-anchor="middle">May</text>
+<text class="tick" x="262.6" y="246" text-anchor="middle">Jun</text>
+<text class="tick" x="302.4" y="246" text-anchor="middle">Jul</text>
+<text class="tick" x="342.1" y="246" text-anchor="middle">Aug</text>
+<text class="tick" x="381.8" y="246" text-anchor="middle">Sep</text>
+<text class="tick" x="421.5" y="246" text-anchor="middle">Oct</text>
+<text class="tick" x="461.3" y="246" text-anchor="middle">Nov</text>
+<text class="tick" x="501.0" y="246" text-anchor="middle">Dec</text>
+<polygon class="wash s1" points="64.0,224 64.0,78.3 103.7,123.2 143.5,84.4 183.2,101.8 222.9,88.4 262.6,95.9 302.4,124.1 342.1,63.6 381.8,70.9 421.5,42.6 461.3,43.9 501.0,28.3 501.0,224"/>
+<polyline class="line s1" points="64.0,78.3 103.7,123.2 143.5,84.4 183.2,101.8 222.9,88.4 262.6,95.9 302.4,124.1 342.1,63.6 381.8,70.9 421.5,42.6 461.3,43.9 501.0,28.3"/>
+<circle class="hit" cx="64.0" cy="78.3" r="12" tabindex="0"><title>Revenue, Jan: $7,003.00</title></circle>
+<circle class="hit" cx="103.7" cy="123.2" r="12" tabindex="0"><title>Revenue, Feb: $4,846.00</title></circle>
+<circle class="hit" cx="143.5" cy="84.4" r="12" tabindex="0"><title>Revenue, Mar: $6,713.00</title></circle>
+<circle class="hit" cx="183.2" cy="101.8" r="12" tabindex="0"><title>Revenue, Apr: $5,876.50</title></circle>
+<circle class="hit" cx="222.9" cy="88.4" r="12" tabindex="0"><title>Revenue, May: $6,518.50</title></circle>
+<circle class="hit" cx="262.6" cy="95.9" r="12" tabindex="0"><title>Revenue, Jun: $6,157.00</title></circle>
+<circle class="hit" cx="302.4" cy="124.1" r="12" tabindex="0"><title>Revenue, Jul: $4,804.00</title></circle>
+<circle class="hit" cx="342.1" cy="63.6" r="12" tabindex="0"><title>Revenue, Aug: $7,713.00</title></circle>
+<circle class="hit" cx="381.8" cy="70.9" r="12" tabindex="0"><title>Revenue, Sep: $7,360.50</title></circle>
+<circle class="hit" cx="421.5" cy="42.6" r="12" tabindex="0"><title>Revenue, Oct: $8,721.00</title></circle>
+<circle class="hit" cx="461.3" cy="43.9" r="12" tabindex="0"><title>Revenue, Nov: $8,656.50</title></circle>
+<circle class="hit" cx="501.0" cy="28.3" r="12" tabindex="0"><title>Revenue, Dec: $9,409.50</title></circle>
+<circle class="dot s1" cx="501.0" cy="28.3" r="4.5"/>
+<text class="label" x="511.0" y="32.3">$9.4K</text>
+</svg><details><summary>Show data table</summary><table><thead><tr><th>Month</th><th>Revenue</th></tr></thead><tbody><tr><td>Jan</td><td>$7,003.00</td></tr><tr><td>Feb</td><td>$4,846.00</td></tr><tr><td>Mar</td><td>$6,713.00</td></tr><tr><td>Apr</td><td>$5,876.50</td></tr><tr><td>May</td><td>$6,518.50</td></tr><tr><td>Jun</td><td>$6,157.00</td></tr><tr><td>Jul</td><td>$4,804.00</td></tr><tr><td>Aug</td><td>$7,713.00</td></tr><tr><td>Sep</td><td>$7,360.50</td></tr><tr><td>Oct</td><td>$8,721.00</td></tr><tr><td>Nov</td><td>$8,656.50</td></tr><tr><td>Dec</td><td>$9,409.50</td></tr></tbody></table></details></section><section class="card"><h2>Revenue by channel</h2><p class="sub">Monthly revenue per sales channel</p><div class="legend"><span><i class="swatch1"></i>Online</span><span><i class="swatch2"></i>In-store</span></div><svg id="chart-channel" viewBox="0 0 560 260" role="img" aria-label="Monthly revenue by channel line chart" xmlns="http://www.w3.org/2000/svg">
+<line class="grid" x1="64" x2="429" y1="224.0" y2="224.0"/>
+<text class="tick" x="56" y="228.0" text-anchor="end">$0</text>
+<line class="grid" x1="64" x2="429" y1="172.0" y2="172.0"/>
+<text class="tick" x="56" y="176.0" text-anchor="end">$2K</text>
+<line class="grid" x1="64" x2="429" y1="120.0" y2="120.0"/>
+<text class="tick" x="56" y="124.0" text-anchor="end">$4K</text>
+<line class="grid" x1="64" x2="429" y1="68.0" y2="68.0"/>
+<text class="tick" x="56" y="72.0" text-anchor="end">$6K</text>
+<line class="grid" x1="64" x2="429" y1="16.0" y2="16.0"/>
+<text class="tick" x="56" y="20.0" text-anchor="end">$8K</text>
+<line class="axis" x1="64" x2="429" y1="224" y2="224"/>
+<text class="tick" x="64.0" y="246" text-anchor="middle">Jan</text>
+<text class="tick" x="97.2" y="246" text-anchor="middle">Feb</text>
+<text class="tick" x="130.4" y="246" text-anchor="middle">Mar</text>
+<text class="tick" x="163.5" y="246" text-anchor="middle">Apr</text>
+<text class="tick" x="196.7" y="246" text-anchor="middle">May</text>
+<text class="tick" x="229.9" y="246" text-anchor="middle">Jun</text>
+<text class="tick" x="263.1" y="246" text-anchor="middle">Jul</text>
+<text class="tick" x="296.3" y="246" text-anchor="middle">Aug</text>
+<text class="tick" x="329.5" y="246" text-anchor="middle">Sep</text>
+<text class="tick" x="362.6" y="246" text-anchor="middle">Oct</text>
+<text class="tick" x="395.8" y="246" text-anchor="middle">Nov</text>
+<text class="tick" x="429.0" y="246" text-anchor="middle">Dec</text>
+<polyline class="line s1" points="64.0,139.2 97.2,156.1 130.4,151.8 163.5,150.4 196.7,145.2 229.9,123.6 263.1,154.9 296.3,135.8 329.5,94.4 362.6,70.2 395.8,79.0 429.0,53.7"/>
+<circle class="hit" cx="64.0" cy="139.2" r="12" tabindex="0"><title>Online, Jan: $3,261.50</title></circle>
+<circle class="hit" cx="97.2" cy="156.1" r="12" tabindex="0"><title>Online, Feb: $2,613.00</title></circle>
+<circle class="hit" cx="130.4" cy="151.8" r="12" tabindex="0"><title>Online, Mar: $2,775.00</title></circle>
+<circle class="hit" cx="163.5" cy="150.4" r="12" tabindex="0"><title>Online, Apr: $2,829.00</title></circle>
+<circle class="hit" cx="196.7" cy="145.2" r="12" tabindex="0"><title>Online, May: $3,030.50</title></circle>
+<circle class="hit" cx="229.9" cy="123.6" r="12" tabindex="0"><title>Online, Jun: $3,860.50</title></circle>
+<circle class="hit" cx="263.1" cy="154.9" r="12" tabindex="0"><title>Online, Jul: $2,657.50</title></circle>
+<circle class="hit" cx="296.3" cy="135.8" r="12" tabindex="0"><title>Online, Aug: $3,394.00</title></circle>
+<circle class="hit" cx="329.5" cy="94.4" r="12" tabindex="0"><title>Online, Sep: $4,984.50</title></circle>
+<circle class="hit" cx="362.6" cy="70.2" r="12" tabindex="0"><title>Online, Oct: $5,916.00</title></circle>
+<circle class="hit" cx="395.8" cy="79.0" r="12" tabindex="0"><title>Online, Nov: $5,576.50</title></circle>
+<circle class="hit" cx="429.0" cy="53.7" r="12" tabindex="0"><title>Online, Dec: $6,548.50</title></circle>
+<circle class="dot s1" cx="429.0" cy="53.7" r="4.5"/>
+<text class="label" x="439.0" y="57.7">Online $6.5K</text>
+<polyline class="line s2" points="64.0,126.7 97.2,165.9 130.4,121.6 163.5,144.8 196.7,133.3 229.9,164.3 263.1,168.2 296.3,111.7 329.5,162.2 362.6,151.1 395.8,143.9 429.0,149.6"/>
+<circle class="hit" cx="64.0" cy="126.7" r="12" tabindex="0"><title>In-store, Jan: $3,741.50</title></circle>
+<circle class="hit" cx="97.2" cy="165.9" r="12" tabindex="0"><title>In-store, Feb: $2,233.00</title></circle>
+<circle class="hit" cx="130.4" cy="121.6" r="12" tabindex="0"><title>In-store, Mar: $3,938.00</title></circle>
+<circle class="hit" cx="163.5" cy="144.8" r="12" tabindex="0"><title>In-store, Apr: $3,047.50</title></circle>
+<circle class="hit" cx="196.7" cy="133.3" r="12" tabindex="0"><title>In-store, May: $3,488.00</title></circle>
+<circle class="hit" cx="229.9" cy="164.3" r="12" tabindex="0"><title>In-store, Jun: $2,296.50</title></circle>
+<circle class="hit" cx="263.1" cy="168.2" r="12" tabindex="0"><title>In-store, Jul: $2,146.50</title></circle>
+<circle class="hit" cx="296.3" cy="111.7" r="12" tabindex="0"><title>In-store, Aug: $4,319.00</title></circle>
+<circle class="hit" cx="329.5" cy="162.2" r="12" tabindex="0"><title>In-store, Sep: $2,376.00</title></circle>
+<circle class="hit" cx="362.6" cy="151.1" r="12" tabindex="0"><title>In-store, Oct: $2,805.00</title></circle>
+<circle class="hit" cx="395.8" cy="143.9" r="12" tabindex="0"><title>In-store, Nov: $3,080.00</title></circle>
+<circle class="hit" cx="429.0" cy="149.6" r="12" tabindex="0"><title>In-store, Dec: $2,861.00</title></circle>
+<circle class="dot s2" cx="429.0" cy="149.6" r="4.5"/>
+<text class="label" x="439.0" y="153.6">In-store $2.9K</text>
+</svg><details><summary>Show data table</summary><table><thead><tr><th>Month</th><th>Online</th><th>In-store</th></tr></thead><tbody><tr><td>Jan</td><td>$3,261.50</td><td>$3,741.50</td></tr><tr><td>Feb</td><td>$2,613.00</td><td>$2,233.00</td></tr><tr><td>Mar</td><td>$2,775.00</td><td>$3,938.00</td></tr><tr><td>Apr</td><td>$2,829.00</td><td>$3,047.50</td></tr><tr><td>May</td><td>$3,030.50</td><td>$3,488.00</td></tr><tr><td>Jun</td><td>$3,860.50</td><td>$2,296.50</td></tr><tr><td>Jul</td><td>$2,657.50</td><td>$2,146.50</td></tr><tr><td>Aug</td><td>$3,394.00</td><td>$4,319.00</td></tr><tr><td>Sep</td><td>$4,984.50</td><td>$2,376.00</td></tr><tr><td>Oct</td><td>$5,916.00</td><td>$2,805.00</td></tr><tr><td>Nov</td><td>$5,576.50</td><td>$3,080.00</td></tr><tr><td>Dec</td><td>$6,548.50</td><td>$2,861.00</td></tr></tbody></table></details></section><section class="card"><h2>Revenue by region</h2><p class="sub">Full period, largest first</p><svg id="chart-region" viewBox="0 0 560 160" role="img" aria-label="Revenue by region bar chart" xmlns="http://www.w3.org/2000/svg">
+<line class="axis" x1="61" x2="61" y1="4" y2="156"/>
+<g tabindex="0"><title>East: $28,417.50</title><rect class="hit" x="61" y="1.0" width="438" height="36"/><path class="bar s1" d="M61,8 h434.0 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-434.0 z"/></g>
+<text class="cat" x="51" y="24.0" text-anchor="end">East</text>
+<text class="label" x="507.0" y="24.0">$28.4K</text>
+<g tabindex="0"><title>North: $21,164.50</title><rect class="hit" x="61" y="37.0" width="438" height="36"/><path class="bar s1" d="M61,44 h322.2 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-322.2 z"/></g>
+<text class="cat" x="51" y="60.0" text-anchor="end">North</text>
+<text class="label" x="395.2" y="60.0">$21.2K</text>
+<g tabindex="0"><title>South: $17,626.50</title><rect class="hit" x="61" y="73.0" width="438" height="36"/><path class="bar s1" d="M61,80 h267.7 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-267.7 z"/></g>
+<text class="cat" x="51" y="96.0" text-anchor="end">South</text>
+<text class="label" x="340.7" y="96.0">$17.6K</text>
+<g tabindex="0"><title>West: $16,570.00</title><rect class="hit" x="61" y="109.0" width="438" height="36"/><path class="bar s1" d="M61,116 h251.4 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-251.4 z"/></g>
+<text class="cat" x="51" y="132.0" text-anchor="end">West</text>
+<text class="label" x="324.4" y="132.0">$16.6K</text>
+</svg><details><summary>Show data table</summary><table><thead><tr><th>Region</th><th>Revenue</th></tr></thead><tbody><tr><td>East</td><td>$28,417.50</td></tr><tr><td>North</td><td>$21,164.50</td></tr><tr><td>South</td><td>$17,626.50</td></tr><tr><td>West</td><td>$16,570.00</td></tr></tbody></table></details></section><section class="card"><h2>Revenue by category</h2><p class="sub">Full period, largest first</p><svg id="chart-category" viewBox="0 0 560 160" role="img" aria-label="Revenue by category bar chart" xmlns="http://www.w3.org/2000/svg">
+<line class="axis" x1="93" x2="93" y1="4" y2="156"/>
+<g tabindex="0"><title>Equipment: $50,735.00</title><rect class="hit" x="93" y="1.0" width="406" height="36"/><path class="bar s1" d="M93,8 h402.0 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-402.0 z"/></g>
+<text class="cat" x="83" y="24.0" text-anchor="end">Equipment</text>
+<text class="label" x="507.0" y="24.0">$50.7K</text>
+<g tabindex="0"><title>Coffee: $13,553.00</title><rect class="hit" x="93" y="37.0" width="406" height="36"/><path class="bar s1" d="M93,44 h104.5 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-104.5 z"/></g>
+<text class="cat" x="83" y="60.0" text-anchor="end">Coffee</text>
+<text class="label" x="209.5" y="60.0">$13.6K</text>
+<g tabindex="0"><title>Merch: $10,612.00</title><rect class="hit" x="93" y="73.0" width="406" height="36"/><path class="bar s1" d="M93,80 h80.9 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-80.9 z"/></g>
+<text class="cat" x="83" y="96.0" text-anchor="end">Merch</text>
+<text class="label" x="185.9" y="96.0">$10.6K</text>
+<g tabindex="0"><title>Tea: $8,878.50</title><rect class="hit" x="93" y="109.0" width="406" height="36"/><path class="bar s1" d="M93,116 h67.0 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-67.0 z"/></g>
+<text class="cat" x="83" y="132.0" text-anchor="end">Tea</text>
+<text class="label" x="172.0" y="132.0">$8.9K</text>
+</svg><details><summary>Show data table</summary><table><thead><tr><th>Category</th><th>Revenue</th></tr></thead><tbody><tr><td>Equipment</td><td>$50,735.00</td></tr><tr><td>Coffee</td><td>$13,553.00</td></tr><tr><td>Merch</td><td>$10,612.00</td></tr><tr><td>Tea</td><td>$8,878.50</td></tr></tbody></table></details></section></div>
+<footer>Source: sales_2025.csv. Hover or tab to a point or bar for its exact value. Each chart has a data table below it.</footer>
+</main></body></html>
